@@ -8,17 +8,17 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.io'),
+  metadataBase: new URL('https://alanzhang.dev'),
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Alan Zhang',
+    template: '%s | Alan Zhang',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Alan Zhang',
+    description: 'Developer.',
+    url: 'https://alanzhang.dev',
+    siteName: 'Alan Zhang',
     locale: 'en_US',
     type: 'website',
   },
@@ -33,14 +33,14 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  twitter: {
-    title: 'Lee Robinson',
-    card: 'summary_large_image',
-  },
-  verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
-    yandex: '14d2e73487fa6c71',
-  },
+  // twitter: {
+  //   title: 'Lee Robinson',
+  //   card: 'summary_large_image',
+  // },
+  // verification: {
+  //   google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+  //   yandex: '14d2e73487fa6c71',
+  // },
 };
 
 const cx = (...classes) => classes.filter(Boolean).join(' ');
