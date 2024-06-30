@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <section>
-      <h1 className="font-medium text-2xl mb-8 tracking-tighter">Hey, I'm Alan</h1>
+      <h1 className="font-medium text-2xl mb-8 tracking-tighter">hey, I'm Alan!</h1>
       <p className="prose prose-neutral dark:prose-invert">
         {`I'm a recent CS graduate currently looking for work in software engineering and AI. 
         Graduating from Rose-Hulman Institute of Technology in 2024, I've done all types of software development, from developing AR demos to simple Discord bots.
