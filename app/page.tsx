@@ -9,9 +9,11 @@ export default function Page() {
         I plan on writing a bit on my thoughts on different aspects of tech in my blog later on.`}
       </p>
       <div className="prose prose-neutral dark:prose-invert ">
-        {`\nYou can contact `}
-        <a href="mailto:me@alanzhang.dev" target="_blank">me@alanzhang.dev</a>
-        {`, to discuss ideas or work.`}
+        <p>
+        You can contact <a href="mailto:me@alanzhang.dev" target="_blank">me@alanzhang.dev</a>
+        , to discuss ideas or work. Additionally, my <a href="https://github.com/AlanZhang2002">Github</a> and 
+        my <a href="https://www.linkedin.com/in/alanmzhang/">LinkedIn</a> are available here.
+        </p>
       </div>
     </section>
   );

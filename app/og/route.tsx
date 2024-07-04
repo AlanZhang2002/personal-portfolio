@@ -14,15 +14,15 @@ export async function GET(req: NextRequest) {
   return new ImageResponse(
     (
       <div
-        style={{
-          height: '100%',
-          width: '100%',
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'flex-start',
-          justifyContent: 'center',
-          backgroundImage: 'url(https://alanzhang.dev/og-bg.png)',
-        }}
+      //   style={{
+      //     height: '100%',
+      //     width: '100%',
+      //     display: 'flex',
+      //     flexDirection: 'column',
+      //     alignItems: 'flex-start',
+      //     justifyContent: 'center',
+      //     backgroundImage: 'url(https://alanzhang.dev/og-bg.png)',
+      //   }}
       >
         <div
           style={{
