@@ -1,0 +1,83 @@
+---
+title: 'Issues with current AI models in the pursuit of AGI'
+publishedAt: '2024-10-08'
+summary: 'Issues with current AI models in the pursuit of AGI'
+---
+
+I’m somewhat disappointed in the current state of what is considered cutting-edge AI. In the pursuit for AGI 
+(something that, by itself, isn’t concretely defined as far as I’m aware), the largest AI companies with the 
+most capabilities in compute, researchers, and developers, are sticking with LLM, transformer-based architectures, 
+pushing the practical size and dataset boundaries of these models that don’t seem to have fundamentally changed 
+since the introduction of attention seven years ago. Maybe my understanding is flawed (I am a fresh college graduate 
+with no AI industry experience), so take my thoughts with a grain of salt, and I would appreciate any comments 
+about corrections or perspectives that I did not consider.
+
+Let’s start with an overview of what transformer-based LLMs like ChatGPT work off of. From what I understand, 
+tokenizers first take the words we input and convert the whole segment into a list of tokens. Tokens are vectors, 
+tracking both the “meaning” of that singular token and its location in the whole input, all in a large dimensional 
+space. From there, the model feeds the tokens through an enormous amount of computational neural network layers, 
+all of which eventually gets combined into a list of probabilities and words. This list of word-probability 
+pairings is supposed to show how likely the next token is that word. All of this, including the tokenizer, the 
+tokens, the encoding/decoding and neural network layers, and the selection mechanism after the list of 
+probabilities, is trained, taking an enormous amount of energy and computational resources so it can get the next 
+word right. In essence, LLMs, at a fundamental level, work well only because of language that has been shown before, 
+outputs language, and generates sequentially. There’s issues with these characteristics I listed when considering 
+what should be needed for AGI, and I aim to discuss each one.
+
+The largest issue with current models is the lack of continual learning, something that I believe is a fundamental 
+part of intelligence. Since the model is dependent on the tuning of parameters, I consider them similar to the many 
+different neural connections in a brain, so the ability to gradually tune these parameters as more text is inputted 
+would constitute continual learning. There are certainly ways to do this, and I wouldn’t be surprised if this was 
+part of the training process, with reinforcement learning, but basically all LLM models I’m aware of have frozen 
+parameters when in use. I’m sure there are good reasons for this, with the high costs of updating the trillions of 
+parameters and the unfiltered input from random users on the internet, but in the context of AGI, any measure of 
+intelligence should measure adaptability and its ability to learn. When using LLMs and giving it more information, 
+like the correctness about previously generated statements, nothing about its actual “brain” has changed, only the 
+context that the parameters work off of. Without variables like temperature generating randomness or additional 
+context injected before the text input (through RAG?), it’ll generate the same exact statements every time you 
+start it up and ask the same prompt. This seems to be a fundamental problem of LLMs that is increasingly difficult 
+to escape, especially with the current focus of making larger and larger models.
+
+Intelligence also depends on reasoning, something that seems backwards with the model’s focus to generate correct 
+language sequentially. With current theories of how thought works, it is hard to defend the idea that thoughts are 
+dependent on language. One such theory, which I will argue for, is mentalese, or the philosophical view that there 
+is a language of thought working beneath the actions we take. Consider the case of a person who was never exposed 
+to language, both in written form and in verbal form. They would still be able to make logical decisions in their 
+day-to-day life. According to Steven Pinker in his discussion on mentalese, there was a 27 year old man, referred 
+to as Ildefonso, from a small Mexican village who grew up deaf and with no experience/understanding of language 
+(written, spoken/lip-read, and signed language). Having illegally immigrated to Los Angeles, he met a sign language 
+interpreter, Susan Schaller, who became his teacher and companion. Through their interactions, it was clear that 
+Ildefonso had grasped numbers in the past, as he “learned to do addition on paper in three minutes and had little 
+trouble understanding the base-ten logic behind two-digit numbers.” He also had mental representations of his 
+history, and the many things he was familiar with, picking up sign language to refer to the different things quickly 
+and gaining the ability to tell his story after a while(1). This argument for mentalese can also be seen in 
+something I’m sure people have experienced in the past, where you have something you want to describe, but can’t 
+think of a word that captures that thought accurately. Sometimes, it can’t be described with any words you know of, 
+and you might need to learn, or even create, a new word to describe it. Text may convey thoughts, but it is an 
+imperfect medium that fails to fully capture many nuances we know of from other senses, as well as qualia itself.
+
+The many nodes and layers trained within a model could, in a sense, be described as converting text into the model’s 
+mentalese, especially with the parallels between AI nodes and neurons in a brain. However, an issue arises when you 
+consider the translation from mentalese back into language. With current models generating text sequentially, one 
+word generated at a time, it creates a disconnect with how one puts their thoughts into words. Consider if you were 
+asked to describe your favorite food. When considering this question, do you think about the type of food first, or 
+the first word that comes out of your mouth? With sequential generation, the model only “thinks” about one word at 
+a time, and in that response, is only thinking about the first word (probably “My”, if the model was trained to 
+respond in whole sentences like “My favorite food is pizza”), then “thinking” about the next token after generating 
+that first word. However, I would like to think that people first consider the different types of food in their 
+thoughts, with that being the core problem at hand. At least for me, after I’ve thought about what I consider my 
+favorite would I then think about how I would phrase my answer. The logical thought process within a model is not 
+there, if it generates a word at a time. With current methods to enhance model reasoning results, like few-shot, 
+chain-of-thought prompt engineering or OpenAI o1’s “internal reasoning” tokens, this disconnect is left there, 
+ignored as if it is not a fundamental problem. Only due to the massive amounts of trainable parameters, enormous 
+embedding dimensional space, and large context size, combined with the scraping of an incomprehensible amount of 
+data, do these models display a facade of surface-level reasoning.
+
+What can we do to get closer to the promise of AGI, which some experts claim could happen before 2030? I believe a 
+fundamental change within the model needs to happen, one that allows the model to have multiple layers of reasoning 
+instead of generating a single token at a time, and allows the model to learn effectively with new interactions. 
+The correctness shouldn’t necessarily be dependent on each token matching something a person wrote in the past, but 
+rather should get the key details right, and shifting the reward function to resemble that would be much more 
+promising. It may require an enormous amount of data to train upon, research to define thoughts/mentalese 
+artificially, and work to design a model to work with broader thoughts instead of sequential language generation, 
+but with this shift, AGI would be much closer to reality than the claims placed on LLM models we have today.
