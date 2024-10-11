@@ -52,7 +52,7 @@ export default function Page() {
           different avenues of the software world. Here's a mix of school projects, team projects, and personal 
           projects I've done in the past.
         </p>
-        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        {/* <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Getting Over It with AI</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Current
@@ -60,7 +60,7 @@ export default function Page() {
         <p>
           To learn reinforcement learning, I am designing a mod using BepInEx to be integrated with Getting Over It, a Unity video game, 
           so it can be controlled by a reinforcement learning model. 
-        </p>
+        </p> */}
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">GLADOS Automating Science Pipeline</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">

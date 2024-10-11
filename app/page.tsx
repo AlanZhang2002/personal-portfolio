@@ -5,8 +5,9 @@ export default function Page() {
       <p className="prose prose-neutral dark:prose-invert">
         {`I'm a recent CS graduate currently looking for work in software engineering and AI. 
         Graduating from Rose-Hulman Institute of Technology in 2024, I've done all types of software development, from developing AR demos to simple Discord bots.
-        I'm particularly interested in effective AI applications and the relationship people have with technology. 
-        I plan on writing a bit on my thoughts on different aspects of tech in my blog later on.`}
+        I'm particularly interested in effective AI applications, the relationship people have with technology, and approaches to doing social good. 
+        I'm also looking to do a Masters in AI/CS starting in Spring 2025.
+        You can see some of my thoughts and rants on different aspects of tech and life in my blog.`}
       </p>
       <div className="prose prose-neutral dark:prose-invert ">
         <p>
