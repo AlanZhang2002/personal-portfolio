@@ -11,6 +11,13 @@ export default function Page() {
       </p>
       <div className="prose prose-neutral dark:prose-invert ">
         <p>
+        I'm also working on making autofocals a widespread, affordable reality, reimagining what glasses 
+        are capable of. I'd love to hear from others interested in this, or other simple, yet immensely impactful, 
+        ways to improve our connection with the world, as well.
+        </p>
+      </div>
+      <div className="prose prose-neutral dark:prose-invert ">
+        <p>
         You can contact <a href="mailto:me@alanzhang.dev" target="_blank">me@alanzhang.dev</a>
         , to discuss ideas or work. Additionally, my <a href="https://github.com/AlanZhang2002">Github</a> and 
         my <a href="https://www.linkedin.com/in/alanmzhang/">LinkedIn</a> are available here.
