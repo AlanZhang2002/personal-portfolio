@@ -6,7 +6,7 @@ export default function Page() {
         {`I'm a recent CS graduate based in Palo Alto, CA, currently looking for work in software engineering and AI. 
         Graduating from Rose-Hulman Institute of Technology in 2024, I've done all types of software development, from developing AR demos to simple Discord bots.
         I'm particularly interested in effective AI applications, the relationship people have with technology, and approaches to doing social good. 
-        I'm also looking to do a Masters in AI/CS starting in Spring 2025.
+        I'm also looking to do a Masters in AI/CS starting in Spring 2025, and potentially doing research through a PhD program next Fall, if I'm lucky.
         You can see some of my thoughts and rants on different aspects of tech and life in my blog.`}
       </p>
       <div className="prose prose-neutral dark:prose-invert ">
