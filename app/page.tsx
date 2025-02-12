@@ -3,10 +3,10 @@ export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">hey, I'm Alan!</h1>
       <p className="prose prose-neutral dark:prose-invert">
-        {`I'm a recent CS graduate based in Palo Alto, CA, currently looking for work in software engineering and AI. 
-        Graduating from Rose-Hulman Institute of Technology in 2024, I've done all types of software development, from developing AR demos to simple Discord bots.
+        {`I'm a 2024 CS graduate based in Palo Alto, CA, currently looking for work in software engineering and AI. 
+        Graduating from Rose-Hulman Institute of Technology, I've done all types of software development, from developing AR demos to simple Discord bots.
         I'm particularly interested in effective AI applications, the relationship people have with technology, and approaches to doing social good. 
-        I'm also looking to do a Masters in AI/CS starting in Spring 2025, and potentially doing research through a PhD program next Fall, if I'm lucky.
+        I'm also doing a part-time Masters in AI/CS at Georgia Tech.
         You can see some of my thoughts and rants on different aspects of tech and life in my blog.`}
       </p>
       <div className="prose prose-neutral dark:prose-invert ">
