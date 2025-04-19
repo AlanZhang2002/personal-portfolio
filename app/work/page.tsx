@@ -8,6 +8,16 @@ export default function Page() {
           Here is a summary of my professional work so far.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
+        <h2 className="font-medium text-xl mb-1 tracking-tighter">LiveRamp</h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          Software Engineering Co-Op, 2025-Present
+        </p>
+        <p>
+          At LiveRamp, I've been learning how larger companies operate, while building upon
+          industry-level software infrastructure. So far, I've helped set up CI/CD, supported
+          bug resolution for existing systems, and improved metrics gathering as developers test AI usage.
+        </p>
+        <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Kura AR</h2>
         <p className="text-neutral-600 dark:text-neutral-400 text-sm">
           Software Development Intern, 2023
