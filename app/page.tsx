@@ -6,7 +6,6 @@ export default function Page() {
         {`I'm a 2024 CS graduate based in Palo Alto, CA, currently working as a SWE Co-op at LiveRamp. 
         Graduating from Rose-Hulman Institute of Technology, I've done all types of software development, from developing AR demos to simple Discord bots.
         I'm particularly interested in effective AI applications, the relationship people have with technology, and approaches to doing social good. 
-        I'm also doing a part-time Masters in AI/CS at Georgia Tech.
         You can see some of my thoughts and rants on different aspects of tech and life in my blog.`}
       </p>
       <div className="prose prose-neutral dark:prose-invert ">

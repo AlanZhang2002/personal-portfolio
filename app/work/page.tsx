@@ -14,8 +14,9 @@ export default function Page() {
         </p>
         <p>
           At LiveRamp, I've been learning how larger companies operate, while building upon
-          industry-level software infrastructure. So far, I've helped set up CI/CD, supported
-          bug resolution for existing systems, and improved metrics gathering as developers test AI usage.
+          industry-level software infrastructure. So far, I've managed production deployments, 
+          helped set up CI/CD, supported bug resolution for existing systems as an On-Call engineer, 
+          and improved metrics gathering as developers test AI tool effectiveness.
         </p>
         <hr className="my-6 border-neutral-100 dark:border-neutral-800" />
         <h2 className="font-medium text-xl mb-1 tracking-tighter">Kura AR</h2>
